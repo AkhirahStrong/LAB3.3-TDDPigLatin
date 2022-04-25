@@ -1,0 +1,15 @@
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class TDDPigLatinTest {
+
+	@Test
+	void testTranslate() {
+		
+		String expected = "pig";
+		String actual = TDDPigLatin.translate("pig");
+		assertEquals(expected, actual);
+	}
+
+}

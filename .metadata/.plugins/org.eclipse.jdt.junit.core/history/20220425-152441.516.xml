@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TDDPigLatinTest" project="LAB3.3-TDDPigLatin" tests="4" started="4" failures="0" errors="0" ignored="0">
+  <testsuite name="TDDPigLatinTest" time="0.014" uniqueid="[engine:junit-jupiter]/[class:TDDPigLatinTest]">
+    <testcase name="testTranslate" classname="TDDPigLatinTest" time="0.011" displayname="testTranslate()" uniqueid="[engine:junit-jupiter]/[class:TDDPigLatinTest]/[method:testTranslate()]"/>
+    <testcase name="testVowelA" classname="TDDPigLatinTest" time="0.0" displayname="testVowelA()" uniqueid="[engine:junit-jupiter]/[class:TDDPigLatinTest]/[method:testVowelA()]"/>
+    <testcase name="testVowelE" classname="TDDPigLatinTest" time="0.0" displayname="testVowelE()" uniqueid="[engine:junit-jupiter]/[class:TDDPigLatinTest]/[method:testVowelE()]"/>
+    <testcase name="testVowelI" classname="TDDPigLatinTest" time="0.0" displayname="testVowelI()" uniqueid="[engine:junit-jupiter]/[class:TDDPigLatinTest]/[method:testVowelI()]"/>
+  </testsuite>
+</testrun>

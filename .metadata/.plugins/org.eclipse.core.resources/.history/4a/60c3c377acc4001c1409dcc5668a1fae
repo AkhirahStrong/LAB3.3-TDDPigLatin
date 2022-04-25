@@ -1,0 +1,13 @@
+
+public class PidLatin {
+
+	public static void main(String[] args) {
+		System.out.println(PigLatinPrompt.translate("two"));
+		
+	}
+	
+//	public static String translate() {
+//		
+//	}
+
+}

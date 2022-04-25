@@ -1,0 +1,63 @@
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class TDDPigLatinTest {
+
+	@Test
+	void testTranslate() {
+		
+		String expected = "igpay\t";
+		String actual = TDDPigLatin.translate("pig\t");
+		assertEquals(expected, actual);
+	}
+	
+	@Test
+	void testVowelA() {
+		
+		String expected = "addway\t";
+		String actual = TDDPigLatin.translate("add\t");
+		assertEquals(expected, actual);
+	}
+	
+	@Test
+	void testVowelE() {
+		
+		String expected = "eatway\t";
+		String actual = TDDPigLatin.translate("eat\t");
+		assertEquals(expected, actual);
+	}
+	
+	@Test
+	void testVowelI() {
+		
+		String expected = "iceway\t";
+		String actual = TDDPigLatin.translate("ice\t");
+		assertEquals(expected, actual);
+	}
+	
+	@Test
+	void testVowelO() {
+		
+		String expected = "openway\t";
+		String actual = TDDPigLatin.translate("open\t");
+		assertEquals(expected, actual);
+	}
+	
+	@Test
+	void testVowelU() {
+		
+		String expected = "unitway\t";
+		String actual = TDDPigLatin.translate("unit\t");
+		assertEquals(expected, actual);
+	}
+	
+	@Test
+	void testCap() {
+		
+		String expected = "apcay\t";
+		String actual = TDDPigLatin.translate("Cap\t");
+		assertEquals(expected, actual);
+	}
+
+}

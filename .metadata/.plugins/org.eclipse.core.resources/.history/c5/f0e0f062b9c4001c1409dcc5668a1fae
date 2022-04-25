@@ -1,0 +1,18 @@
+
+public class PidLatin {
+
+	public static void main(String[] args) {
+		PigLatinPrompt pipr = new PigLatinPrompt();
+		
+		
+		pipr.userNpt("");
+		System.out.println(PigLatinPrompt.translate("hhkj"));
+		
+		
+	}
+	
+//	public static String translate() {
+//		
+//	}
+
+}

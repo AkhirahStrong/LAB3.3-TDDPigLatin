@@ -1,0 +1,19 @@
+
+public class PidLatin {
+	
+	private static PigLatinPrompt pigpromp;
+
+	public static void main(String[] args) {
+		//PigLatinPrompt pipr = new PigLatinPrompt();
+		
+		
+		pigpromp.userNpt(null);
+		
+		
+	}
+	
+//	public static String translate() {
+//		
+//	}
+
+}
